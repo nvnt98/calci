@@ -9,7 +9,7 @@
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    margin: 5px 0px 5px 0px;
+    margin: 10px 0px 5px 0px;
     justify-content: center;
 }
 #container{
