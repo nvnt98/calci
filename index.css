@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#h2{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+    justify-content: center;
+}
+#container{
+    padding:  10px 15px 15px 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    /* border:2px solid black */
+    
+} 
+#box{
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    display: flex;
+    border: 5px solid green;
+    border-radius: 15px;
+    width: 400px;
+    height: 600px;
+    justify-content: space-evenly;
+   
+}
+#input_display{
+    padding: 5px;
+    box-sizing: border-box;
+    margin:0px 10px 0px 10px;
+    height:100px;
+    width: 370px;
+    font-size: 40px;
+    border-radius: 10px;
+    border:3px solid black;
+}
+#buttons{
+    border-radius: 0px 0px 10px 10px ;
+    background-color: rgb(177, 177, 177);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.but_input{
+    justify-content: center;
+    padding: 17.5px;
+    display: flex;
+    margin: 10px;
+    width: 70px;
+    height:70px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.but_input0{
+    justify-content: center;
+    padding: 15px;
+    display: flex;
+    margin: 10px;
+    width: 165px;
+    height:70px;
+    border-radius: 5px;
+    font-size: 25px;
+    
+}
+#name{
+    text-align: center;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #cce5c8;
+}
+.but_input0:hover{
+    background-color: rgb(160, 204, 249);
+ 
+}
+.but_input:hover{
+    background-color: rgb(160, 204, 249);
+}
+
+
+
