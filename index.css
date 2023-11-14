@@ -87,5 +87,52 @@
     background-color: rgb(160, 204, 249);
 }
 
+/*animation  */
+/*animation  */
+/*animation  */
+/*animation  */
+
+
+ body {
+      animation: background-animation 5s infinite;
+      background-color: #000;
+    }
+
+    @keyframes background-animation {
+      0% {
+        background-color: var(--start-color);
+      }
+  
+      50% {
+        background-color: var(--middle-color);
+      }
+  
+      100% {
+        background-color: var(--end-color);
+      }
+    }
+
+/* Define the animation */
+@keyframes neon {
+  0% {
+    border-color: green;
+    box-shadow: 0 0 5px green;
+  }
+  50% {
+    border-color: yellow;
+    box-shadow: 0 0 10px yellow;
+  }
+  100% {
+    border-color: pink;
+    box-shadow: 0 0 15px pink;
+  }
+}
+
+/* Apply the animation to the element's border */
+#box {
+  border-width: 5px;
+  border-style: solid;
+  animation: neon 2s infinite;
+}
 
 
